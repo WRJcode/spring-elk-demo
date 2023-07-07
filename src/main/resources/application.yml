@@ -1,0 +1,12 @@
+server:
+  port: 8188
+
+spring:
+  profiles:
+    active: dev
+
+logging:
+  level:
+    root: info
+  file:
+    path: applog
