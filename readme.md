@@ -1,8 +1,8 @@
 ### SpringBoot集成ELK
 
 >ELK官方文档：https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html <br/>
->SpringBoot集成ELK：https://blog.csdn.net/dndndnnffj/article/details/122205168
->windows环境部署ELK:https://www.macrozheng.com/mall/deploy/mall_deploy_windows.html#logstash 
+>SpringBoot集成ELK：https://blog.csdn.net/dndndnnffj/article/details/122205168 <br/>
+>windows环境部署ELK:https://www.macrozheng.com/mall/deploy/mall_deploy_windows.html#logstash <br/>
 
 #### 1. pom.xml中引入依赖
 
@@ -228,3 +228,46 @@ GET /logstash-*/_search
   "size": 1
 }
 ```
+
+#### 17. ELK应用场景
+
+- 日志分析
+- 数据分析
+- 业务监控
+- 安全分析
+- 业务运营
+- 业务分析
+- 业务预警
+- 业务报表
+- 业务决策
+
+#### 18. ES的基本概念
+
+- 索引
+- 类型
+- 文档
+- 字段
+- 分片
+- 副本
+- 节点
+- 集群
+- 映射
+- 倒排索引
+- 分词器
+- 分析器
+- 聚合
+- 脚本
+- 索引模板
+- 索引别名
+- 索引生命周期管理
+- 索引压缩
+- 索引合并
+- 索引刷新
+- 索引优化
+- 索引恢复
+- 索引快照
+- 索引升级
+- 索引删除
+- 索引迁移
+
+
