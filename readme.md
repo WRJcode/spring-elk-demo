@@ -4,6 +4,13 @@
 >SpringBoot集成ELK：https://blog.csdn.net/dndndnnffj/article/details/122205168 <br/>
 >windows环境部署ELK:https://www.macrozheng.com/mall/deploy/mall_deploy_windows.html#logstash <br/>
 
+>日志流程:
+>logback -> logstash -> elasticsearch -> kibana
+
+
+![日志流程](picture/elk-log.webp)
+
+
 #### 1. pom.xml中引入依赖
 
 ```xml
